@@ -6,6 +6,7 @@ import caret_icon from './caret_icon.svg'
 import hero_banner from './hero_banner.jpg'
 import hero_title from './hero_title.png'
 import play_icon from './play_icon.png'
+import info_icon from './info_icon.png'
 
 const assets = {
     logo,
@@ -16,6 +17,7 @@ const assets = {
     hero_banner,
     hero_title,
     play_icon,
+    info_icon,
 }
 
 export default assets;
