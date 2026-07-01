@@ -6,7 +6,7 @@ const TitleCards = ({ title, category}) => {
   return (
     <>
       <div className="mt-12 mb-8">
-        <h2 className="mb-2">{title ? title : "Popular on Netflix"}</h2>
+        <h2 className="mb-2 font-semibold text-xl">{title ? title : "Popular on Netflix"}</h2>
         <ScrollContainer className="flex gap-4 overflow-x-scroll scrollbar-none">
           {cards_data.map((item, index) => (
             <div className="relative shrink-0" key={index}>

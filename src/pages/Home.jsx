@@ -1,6 +1,7 @@
 import React from 'react'
 import assets from '../assets/assets'
 import TitleCards from '../components/TitleCards'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -32,6 +33,10 @@ const Home = () => {
           <TitleCards title={"Upcoming"} />
           <TitleCards title={"Top pics for you"} />
         </div>
+      </div>
+
+      <div>
+        <Footer />
       </div>
 
     </>
