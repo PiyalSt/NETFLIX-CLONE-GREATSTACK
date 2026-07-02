@@ -14,9 +14,8 @@ const App = () => {
         <Route path='/player' element={<Player />} />
 
         <Route path='/' element={<RootLayout />}>
-          <Route path='home' element={<Home />} />
+          <Route index element={<Home />} />
         </Route>
-
       </Route>
     )
   )
